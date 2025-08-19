@@ -3,19 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Blog SENAI</title>
+    <title>Blog</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="cabeça">
+    <header class="cabeca">
         <nav class="nav-menu">
             <h1>SENAI</h1>
             <a href="#">blog</a>
         </nav>
+
+        <div class="buscar">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="search" name="asa" id="busca" placeholder="Pesquisar no blog">
+        </div>
+
     </header>
-    <input type="text" placeholder="Pesquisar no blog...">
 
-    <main>
-
+    <main class="container">
+        <section class="lista-artigos">
+            <article class="card-artigo">
+                <div class="data">
+                    <p>02 de jul, 2021</p>
+                    <ion-icon name="heart"></ion-icon>
+                </div>
+                <h2><a href="./noticias.html">Agora é oficial: o Windows está vindo</a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi excepturi voluptatum similique culpa? Voluptatibus, vel quaerat doloremque accusantium sapiente assumenda enim, dolores pariatur maiores eius tenetur nulla, explicabo consequatur mollitia?</p>
+            </article>
+            <article class="card-artigo">
+                <div class="data">
+                    <p>02 de jul, 2021</p>
+                    <ion-icon name="heart"></ion-icon>
+                <h2><a href="./noticias.html">Agora é oficial: o Windows está vindo</a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi excepturi voluptatum similique culpa? Voluptatibus, vel quaerat doloremque accusantium sapiente assumenda enim, dolores pariatur maiores eius tenetur nulla, explicabo consequatur mollitia?</p>
+            </article>
+            <article class="card-artigo">
+                <div class="data">
+                    <p>02 de jul, 2021</p>
+                    <ion-icon name="heart"></ion-icon>
+                <h2><a href="./noticias.html">Agora é oficial: o Windows está vindo</a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi excepturi voluptatum similique culpa? Voluptatibus, vel quaerat doloremque accusantium sapiente assumenda enim, dolores pariatur maiores eius tenetur nulla, explicabo consequatur mollitia?</p>
+            </article>
+            <article class="card-artigo">
+                <div class="data">
+                    <p>02 de jul, 2021</p>
+                    <ion-icon name="heart"></ion-icon>
+                <h2><a href="./noticias.html">Agora é oficial: o Windows está vindo</a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi excepturi voluptatum similique culpa? Voluptatibus, vel quaerat doloremque accusantium sapiente assumenda enim, dolores pariatur maiores eius tenetur nulla, explicabo consequatur mollitia?</p>
+            </article>
+        </section>
     </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
